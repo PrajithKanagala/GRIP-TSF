@@ -1,0 +1,123 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #321276;
+}
+
+/* splash screen css starts here  */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #e4eff2 url("https://giphy.com/gifs/QvjmxpTkWK6ty5DTJY") no-repeat center center;
+}
+/* splash screen css ends here  */
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #b72fbafa!important;
+}
+
+.navbar-brand{
+    font-family: "Impact", Times, serif;
+    font-size: 2rem;
+    color: #120202!important;
+    margin: auto;
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+
+}
+
+.nav-link{
+    color: #010c01!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.nav-link:hover{
+    background-color: #f3f1f1;
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    background-color: #ec1313;
+    color: #ffffff;
+    padding: 3rem;
+    border-bottom-left-radius: 45rem;
+    border-bottom-right-radius: 45rem;
+    margin-bottom: 1vh;
+}
+
+.spark{
+    height: 70vh;
+    width: 100%;
+}
+
+@media only screen and (max-width: 766px) {
+    .spark {
+      display: none;
+    }
+}
+
+footer{
+    background-color: black;
+}
+
+.make{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #fff;
+    color: #010608!important;
+    transition: 0.3s;
+}
+
+.make:hover{
+    text-decoration: none;
+    background-color: #c631ab;
+    
+}
+/* here content css starts here  */
+
+/* make-buttons css starts here*/
+.make-content{
+    height: 60vh;
+    background-color: #ff8a65;
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.make-content .row{
+    padding: 25vh 0;
+}
+
+.make-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #01070a;
+    color: #fff!important;
+    transition: 0.3s;
+}
+
+.make-content a:hover{
+    background-color: #017ab6;
+    text-decoration: none;
+}
+/* make-buttons css end here*/
+
+/* footer css starts here */
+
+
